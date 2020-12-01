@@ -196,13 +196,22 @@
 							_t.search(_t.page);
 						})
 					} else {
+						console.log(row.id);
 						enable({
 							id: row.id
 						}, res => {
+							if(res.code == 200){
 							_t.$message({
 								type: 'success',
-								message: '已启用!'
+								message: res.msg
 							});
+							}else{
+							_t.$message({
+								type: 'error',
+								message: res.msg
+							});
+							}
+
 							_t.search(_t.page);
 						})
 					}
