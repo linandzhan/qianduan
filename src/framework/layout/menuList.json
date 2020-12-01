@@ -1,0 +1,97 @@
+[
+  {
+    "displayName": "message.system",
+    "icon": "el-icon-setting",
+    "mid": 1,
+    "children": [
+      {
+        "displayName": "管理员管理",
+        "link": "/manager/list",
+        "mid": 0
+      },
+      {
+        "displayName": "角色管理",
+        "link": "/role/list",
+        "mid": 0
+      },
+      {
+        "displayName": "APP版本管理",
+        "link": "/version/list",
+        "mid": 0
+      },
+	  {
+	    "displayName": "模块管理",
+	    "link": "/module/list",
+	    "mid": 0
+	  },
+	  {
+	    "displayName": "权限管理",
+	    "link": "/permission/list",
+	    "mid": 0
+	  }
+    ]
+  },
+  {
+    "displayName": "用户管理",
+    "icon": "el-icon-user",
+    "mid": 1,
+    "children": [
+      {
+        "displayName": "用户列表",
+        "link": "/user/list",
+        "mid": 0
+      }
+    ]
+  },
+  {
+    "displayName": "内容管理",
+    "icon": "el-icon-tickets",
+    "mid": 1,
+    "children": [
+      {
+        "displayName": "系统文章管理",
+        "link": "/page/system/list",
+        "mid": 0
+      },
+      {
+        "displayName": "帮助中心文章管理",
+        "link": "/page/help/list",
+        "mid": 0
+      },
+      {
+        "displayName": "热搜管理",
+        "link": "/trendingWord/list",
+        "mid": 0
+      },
+      {
+        "displayName": "广告管理",
+        "link": "/slide/list",
+        "mid": 0
+      }
+    ]
+  },
+  {
+    "displayName": "互动管理",
+    "icon": "el-icon-service",
+    "mid": 1,
+    "children": [
+      {
+        "displayName": "意见反馈",
+        "link": "/advice/list",
+        "mid": 0
+      }
+    ]
+  },
+  {
+    "displayName": "message.message",
+    "icon": "el-icon-chat-dot-square",
+    "mid": 1,
+    "children": [
+      {
+        "displayName": "平台消息管理",
+        "link": "/notification/list",
+        "mid": 0
+      }
+    ]
+  }
+]
